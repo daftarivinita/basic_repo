@@ -1,0 +1,15 @@
+make a repo on github
+mkdir basic_repo
+cd basic_repo
+git init
+ls
+touch index.html
+touch css.style
+code .
+git remote add origin https://github.com/daftarivinita/basic_repo.git
+git status
+git add css.style
+git add index.html
+git commit -m"first commit"
+git push origin master
+touch simple.txt
